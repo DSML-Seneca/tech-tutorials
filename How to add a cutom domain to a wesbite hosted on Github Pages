@@ -1,0 +1,51 @@
+How to add a cutom domain to a wesbite hosted on Github Pages
+
+Now that you have your website hosted for free on Github Pages, you can cutomize your domain to something other than yourgithubusername.github.io
+
+1- Get a domain.
+
+There are many options to purchase a domain. The most popular is GoDaddy but you can choose whichever provider you'd like.
+If you already own a domain skip this step.
+
+2- On your website's repository main page, click on "Settings" on the top right corner.
+
+3- Click on "Pages" on the left hand side under the "Code and automation" section.
+
+4- Under "Source", there will be a drop down tab that says "None". Click on it and change it to "main"
+
+5- Leave the folder as "/(root)" and click on "Save"
+
+6- Under "Custom Domain", enter the name of your domain and click on "Save"
+Example: yourdomain.com
+
+Note that this step will create a CNAME file on your repository. Do not delete this.
+
+As an option you can click on the box that says "Enforce HTTPS". Although not mandatory, it's recommended.
+
+7- This will prompt a DNS check.
+
+8- On the upmost top right hand corner you will see a drop down tab with your account. Click on it and select "Settings"
+
+9- Now in "Settings", click on "Pages" under the "Code, planning and automation" section.
+
+10- Click on the green button that says "Add a domain", enter the name of your domain, for example yourdomain.com and select add domain.
+
+11- It will ask you to verify your domain by adding a DNS TXT record.
+
+12- Make note of the verification steps and head to your domain provider to create a TXT record.
+
+Do not close this page. Write down the hostname and value for the TXT record and leave the page open so you can click on verify later on.
+
+13- On your domain provider, click on DNS settings (the specific steps will depend on the provider)
+
+14- Add a DNS record of type TXT and write the name and value that you just obtained. 
+
+15- Once you add the record, go back to the domain verification page that was opened and click on the green button that says verify.
+
+
+Congrats! Now you have a website with a custom domain.
+
+Check out the other articles and thank you for reading!
+
+
+✍🏼 by gcotofernandez
